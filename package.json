@@ -1,0 +1,11 @@
+{
+  "name": "auto-shrinking-nav",
+  "version": "1.0.0",
+  "description": "Barra de navegación para sitio web que se achica al bajar a través de  la página.",
+  "main": "index.html",
+  "author": "imjaroiswebdev@gmail.com",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "normalize.css": "^5.0.0"
+  }
+}
