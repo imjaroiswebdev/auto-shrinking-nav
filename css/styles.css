@@ -95,7 +95,7 @@ button {
 #mision, #vision, #platform {
     width: 100%;
     min-height: 60vmin;
-    padding: 4rem 0 3rem;
+    padding: 6rem 0 5rem;
     
     display: flex;
     flex-direction: column;
