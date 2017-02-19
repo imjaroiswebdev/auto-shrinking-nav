@@ -9,10 +9,24 @@
     z-index: 10;
     
     padding: 1rem 2rem;
+    margin: 0;
+    font-size: 2rem;
+    transition: all 0.4s ease-out;
 }
 
+/* Estilos para achicar barra de navegación */
 .navigation-shrinked {
+    width: 100%;
+	position: absolute;
+    top: 0;
+    z-index: 10;
     
+    padding: 1rem 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+    background-color: #1a1a1a;
+    opacity: .85;
+    transition: all 0.4s ease-out;
 }
 
 ul {
@@ -22,16 +36,15 @@ ul {
 .navigation > ul > li {
 	list-style: none;
     display: inline-block;
-    
+    font-size: inherit;
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
     color: #fff !Important;
     padding-right: 1rem;
     text-shadow: 1px 1px 1px #1a1a1a;
 }
 
 .navigation > ul > li:first-child  {
-	font-size: 2.5em;
+	font-size: 1.5em;
     color: #5BC0DE !Important;
 }
 
