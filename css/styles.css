@@ -2,10 +2,52 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto'); /* Font Roboto - font-family: 'Roboto', sans-serif;*/
 
+.navigation {
+    width: 100%;
+	position: absolute;
+    top: 0;
+    z-index: 10;
+    
+    padding: 1rem 2rem;
+}
+
+.navigation-shrinked {
+    
+}
+
+ul {
+    padding: 0;
+}
+
+.navigation > ul > li {
+	list-style: none;
+    display: inline-block;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #fff !Important;
+    padding-right: 1rem;
+    text-shadow: 1px 1px 1px #1a1a1a;
+}
+
+.navigation > ul > li:first-child  {
+	font-size: 2.5em;
+    color: #5BC0DE !Important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
 .hero {
-    position: relative;
     width: 100%;
     height: 100vh;
+    z-index: 1;
     
     /* BG*/
     background-image: url(../images/benjamin-child-17946-opt.jpg);
@@ -14,6 +56,48 @@
     
     /* Button Aling */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #e6e6e6;
+    text-shadow: 0 0 5px #1a1a1a;
+    
+    padding-bottom: 2rem;
+}
+
+button {
+    box-shadow: 0 0 6px #808080;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper article:nth-child(even) {
+	background-color: #87cade;
+}
+
+#mision, #vision, #platform {
+    width: 100%;
+    min-height: 60vmin;
+    padding: 4rem 0 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    max-width: 35rem;
+    text-align: center;
 }
